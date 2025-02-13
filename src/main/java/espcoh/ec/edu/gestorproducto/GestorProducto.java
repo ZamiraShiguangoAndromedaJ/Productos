@@ -4,6 +4,10 @@
 
 package espcoh.ec.edu.gestorproducto;
 
+
+import espcoh.ec.edu.gestorproducto.Modelo.Vista.Vista;
+
+
 /**
  *
  * @author user
@@ -11,6 +15,7 @@ package espcoh.ec.edu.gestorproducto;
 public class GestorProducto {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Vista objListado = new Vista();
+        objListado.setVisible(true); 
     }
 }
